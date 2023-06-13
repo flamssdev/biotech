@@ -1,0 +1,54 @@
+.about {
+    background: var(--bg-about);
+    padding: 130px 2% 50px;
+    .container-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+
+        .container-content {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+
+            .vetor {
+                max-width: 500px;
+                width: 100%;
+                height: 100%;
+            }
+
+            .content {
+                max-width: 500px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                
+
+                span {
+                    display: inline-block;
+                    text-align: justify;
+                    color: var(--branco);
+                }
+                
+                div {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .about {
+        .container-about {
+            .container-content {
+                flex-direction: column;
+            }
+        }
+    }
+}
