@@ -11,9 +11,10 @@
     <link rel="stylesheet/less" type="text/css" href="styles/3-sobreNos.less" />
     <link rel="stylesheet/less" type="text/css" href="styles/4-servicos.less" />
     <link rel="stylesheet/less" type="text/css" href="styles/5-galeria.less" />
-    <!-- <link rel="stylesheet/less" type="text/css" href="styles/.less" /> -->
-    <!-- <link rel="stylesheet/less" type="text/css" href="styles/.less" /> -->
-    <!-- <link rel="stylesheet/less" type="text/css" href="styles/.less" /> -->
+    <link rel="stylesheet/less" type="text/css" href="styles/6-drones.less" />
+    <link rel="stylesheet/less" type="text/css" href="styles/7-produtos.less" />
+    <link rel="stylesheet/less" type="text/css" href="styles/8-depoimentos.less" />
+    <link rel="stylesheet/less" type="text/css" href="styles/9-footer.less" />
 </head>
 <body>
     <header>
@@ -23,15 +24,15 @@
                     <a href="#home">Home</a>
                     <a href="#about">Sobre Nós</a>
                     <a href="#servicos">Serviços</a>
-                    <a href="#">Galeria</a>
+                    <a href="#galeria">Galeria</a>
                 </div> <!--menu-1-->
                 <div class="logo">
                     <img src="imagens/1-header/logo.webp" alt="Logo">
                 </div> <!--logo-->
                 <div class="menu-2">
-                    <a href="#">Drones</a>
-                    <a href="#">Produtos</a>
-                    <a href="#">Depoimentos</a>
+                    <a href="#drones">Drones</a>
+                    <a href="#produtos">Produtos</a>
+                    <a href="#depoimentos">Depoimentos</a>
                     <div class="loja">
                         <a href="#">LOJA</a>
                     </div>
@@ -44,10 +45,10 @@
                     <a href="#home">HOME</a>
                     <a href="#about">SOBRE NÓS</a>
                     <a href="#servicos">SERVIÇOS</a>
-                    <a href="#">GALERIA</a>
-                    <a href="#">DRONES</a>
-                    <a href="#">PRODUTOS</a>
-                    <a href="#">DEPOIMENTOS</a>
+                    <a href="#galeria">GALERIA</a>
+                    <a href="#drones">DRONES</a>
+                    <a href="#produtos">PRODUTOS</a>
+                    <a href="#depoimentos">DEPOIMENTOS</a>
                 </div>
                 <div class="menu-hamburguer" id="hamburguer">
                     <span></span>
@@ -188,7 +189,7 @@
             </div> <!--container-servicos-->
         </section>
 
-        <section class="galeria">
+        <section class="galeria" id="galeria">
             <div class="container-galeria">
                 <div class="sup">
                     <span class="titulo fonte-verde">Assista à nossa pulverização em ação!</span>
@@ -197,14 +198,261 @@
                 <div class="video"></div>
                 <div class="galeria-wrapper">
                     <div class="content-galeria">
-                        <img src="imagens/5-galeria/1.webp" alt="">
-                        <img src="imagens/5-galeria/2.webp" alt="">
-                        <img src="imagens/5-galeria/3.webp" alt="">
+                        <img src="imagens/5-galeria/1.webp" alt="foto da galeria">
+                        <img src="imagens/5-galeria/2.webp" alt="foto da galeria">
+                        <img src="imagens/5-galeria/3.webp" alt="foto da galeria">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="drones" id="drones">
+            <div class="container-drones">
+                <div class="sup">
+                    <span class="titulo fonte-verde">DRONES</span>
+                    <img src="imagens/6-drones/idv-gn.webp" alt="IDV">
+                </div>
+
+                <div class="card">
+                    <span class="subtitulo fonte-verde">DJI Agras T10</span>
+                    <div class="container-card">
+                        <div class="content-drone">
+                            <img src="imagens/6-drones/T10.webp" alt="imagem do drone T10">
+                            <span class="subtitulo fonte-verde p">8 Litros <br> <span class="medium">para pulverização</span></span>
+                        </div> <!--content-drone-->
+
+                        <div class="content-descricao">
+                            <div>
+                                <img src="imagens/6-drones/radar.webp" alt="vetor radar">
+                                <span class="medium fonte-verde">Sistema de radar esférico para detecção avançada de obstáculos.</span>
+                            </div>
+
+                            <div>
+                                <img src="imagens/6-drones/ip67.webp" alt="vetor ip67">
+                                <span class="medium fonte-verde">Resistência geral à água com classificação IP67.</span>
+                            </div>
+
+                            <div>
+                                <img src="imagens/6-drones/cameraDrone.webp" alt="vetor camera drone">
+                                <span class="medium fonte-verde">Câmeras FPV duplas para monitoramento em tempo real.</span>
+                            </div>
+
+                            <div>
+                                <img src="imagens/6-drones/controleRemoto.webp" alt="vetor controle remoto">
+                                <span class="medium fonte-verde">Operação totalmente autônoma com alta precisão.</span>
+                            </div>
+
+                            <div>
+                                <img src="imagens/6-drones/smartphone.webp" alt="vetor smartphone">
+                                <span class="medium fonte-verde">Integração com a plataforma na nuvem Smart Agriculture.</span>
+                            </div>
+                        </div> <!--content-descricao-->
+
+                    </div> <!--container-cards-->
+
+                    <a class="botao" href="#">Saiba Mais</a>
+                </div> <!--card-->
+
+                <div class="card">
+                    <span class="subtitulo fonte-verde">DJI Agras T20</span>
+                    <div class="container-card invertido">
+                        <div class="content-drone">
+                            <img src="imagens/6-drones/T20.webp" alt="Imagem do drone T20">
+                            <span class="subtitulo fonte-verde p">20 Litros <br> <span class="medium sp">para pulverização</span></span>
+                            <span class="subtitulo fonte-verde p-2">25KG <br> <span class="medium sp"> para dispersão</span></p>
+                        </div> <!--content-drone-->
+
+                        <div class="content-descricao">
+                            <div>
+                                <img src="imagens/6-drones/binocular.webp" alt="vetor binocular">
+                                <span class="medium fonte-verde">Utilização de radar de matriz faseada ativo e visão binocular para maior precisão.</span>
+                            </div>
+
+                            <div>
+                                <img src="imagens/6-drones/pulverizacao.webp" alt="Vetor pulverizacao">
+                                <span class="medium fonte-verde">Sistema duplo de pulverização atomizado para uma distribuição eficiente.</span>
+                            </div>
+
+                            <div>
+                                <img src="imagens/6-drones/mapeamento.webp" alt="Vetor Mapeamento">
+                                <span class="medium fonte-verde">Compatível com pulverização/dispersão em voo e mapeamento por CR.</span>
+                            </div>
+
+                            <div>
+                                <img src="imagens/6-drones/combustivel.webp" alt="Vetor combustivel">
+                                <span class="medium fonte-verde">Gerador Alimentado por combustível + eletricidade</span>
+                            </div>
+
+                        </div> <!--content-descricao-->
+
+                    </div> <!--container-cards-->
+
+                    <a class="botao" href="#">Saiba Mais</a>
+                </div> <!--card-->
+
+                <div class="card">
+                    <span class="subtitulo fonte-verde">DJI Agras T30</span>
+                    <div class="container-card">
+                        <div class="content-drone">
+                            <img src="imagens/6-drones/T30.webp" alt="Imagem do drone T30">
+                            <span class="subtitulo fonte-verde p">30 Litros <br> <span class="medium">para pulverização</span></span>
+                        </div> <!--content-drone-->
+
+                        <div class="content-descricao">
+                            <div>
+                                <img src="imagens/6-drones/radar.webp" alt="vetor radar">
+                                <span class="medium fonte-verde">Sistema de radar esférico para detecção avançada de obstáculos.</span>
+                            </div>
+
+                            <div>
+                                <img src="imagens/6-drones/ip67.webp" alt="vetor ip67">
+                                <span class="medium fonte-verde">Resistência geral à água com classificação IP67.</span>
+                            </div>
+
+                            <div>
+                                <img src="imagens/6-drones/cameraDrone.webp" alt="vetor camera drone">
+                                <span class="medium fonte-verde">Câmeras FPV duplas para monitoramento em tempo real.</span>
+                            </div>
+
+                            <div>
+                                <img src="imagens/6-drones/controleRemoto.webp" alt="vetor controle remoto">
+                                <span class="medium fonte-verde">Operação totalmente autônoma com alta precisão.</span>
+                            </div>
+
+                            <div>
+                                <img src="imagens/6-drones/smartphone.webp" alt="vetor smartphone">
+                                <span class="medium fonte-verde">Integração com a plataforma na nuvem Smart Agriculture.</span>
+                            </div>
+                        </div> <!--content-descricao-->
+
+                    </div> <!--container-cards-->
+
+                    <a class="botao" href="#">Saiba Mais</a>
+                </div> <!--card-->
+
+                <div class="card">
+                    <span class="subtitulo fonte-verde">DJI Agras T40</span>
+                    <div class="container-card invertido">
+                        <div class="content-drone">
+                            <img src="imagens/6-drones/T40.webp" alt="Imagem do drone T40">
+                            <span class="subtitulo fonte-verde p">40 Litros <br> <span class="medium">para pulverização</span></span>
+                            <span class="subtitulo fonte-verde p-2">50KG <br> <span class="medium sp"> para dispersão</span></p>
+                        </div> <!--content-drone-->
+
+                        <div class="content-descricao">
+                            <div>
+                                <img src="imagens/6-drones/binocular.webp" alt="vetor binocular">
+                                <span class="medium fonte-verde">Utilização de radar de matriz faseada ativo e visão binocular para maior precisão.</span>
+                            </div>
+
+                            <div>
+                                <img src="imagens/6-drones/pulverizacao.webp" alt="Vetor pulverizacao">
+                                <span class="medium fonte-verde">Sistema duplo de pulverização atomizado para uma distribuição eficiente.</span>
+                            </div>
+
+                            <div>
+                                <img src="imagens/6-drones/mapeamento.webp" alt="Vetor Mapeamento">
+                                <span class="medium fonte-verde">Compatível com pulverização/dispersão em voo e mapeamento por CR.</span>
+                            </div>
+
+                            <div>
+                                <img src="imagens/6-drones/combustivel.webp" alt="Vetor combustivel">
+                                <span class="medium fonte-verde">Gerador Alimentado por combustível + eletricidade</span>
+                            </div>
+
+                        </div> <!--content-descricao-->
+
+                    </div> <!--container-cards-->
+
+                    <a class="botao" href="#">Saiba Mais</a>
+                </div> <!--card-->
+            </div> <!--container-drones-->
+        </section>
+
+        <section class="produtos" id="produtos">
+            <div class="container-produtos">
+                <div class="sup">
+                    <span class="titulo fonte-verde">OUTROS PRODUTOS</span>
+                    <img src="imagens/7-produtos/idv-gn.webp" alt="IDV">
+                </div>
+
+                <div class="content">
+                    <div class="content-produto">
+                        <img src="imagens/7-produtos/1.png" alt="">
+                        <span class="fonte-verde">DRONES DE MAPEAMENTO</span>
+                    </div>
+                    <div class="content-produto">
+                        <img src="imagens/7-produtos/2.png" alt="">
+                        <span class="fonte-verde">PEÇAS PARA DRONES</span>
+                    </div>
+                    <div class="content-produto">
+                        <img src="imagens/7-produtos/3.png" alt="">
+                        <span class="fonte-verde">GERADORES DE ENERGIA</span>
+                    </div>
+                    <div class="content-produto">
+                        <img src="imagens/7-produtos/4.png" alt="">
+                        <span class="fonte-verde">MISTURADOR PULVERIZAÇÃO</span>
+                    </div>
+                    <div class="content-produto">
+                        <img src="imagens/7-produtos/5.png" alt="">
+                        <span class="fonte-verde">TODA LINHA MAVIC E MULTISPECTRAL</span>
+                    </div>
+                    <div class="content-produto">
+                        <img src="imagens/7-produtos/6.png" alt="">
+                        <span class="fonte-verde">FERRAMENTAS PARA DRONES</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="depoimentos" id="depoimentos">
+            <div class="container-depoimentos">
+                <div class="sup">
+                    <span class="titulo fonte-branco">DEPOIMENTOS</span>
+                    <img src="imagens/8-depoimentos/idv-wt.webp" alt="IDV">
+                </div>
+                <div class="wrapper-content">
+                    <div class="content">
+                        <div class="card">
+                            <span class="nome">João Silva</span>
+                            <span class="funcao">Produtor Rural</span>
+                            <img src="imagens/8-depoimentos/idv-gn.webp" alt="">
+    
+                            <p>A compra do drone agrícola da Biotech DRONES foi uma excelente decisão para o meu negócio. Além da qualidade excepcional do produto, fui bem atendido por toda a equipe. Recebi todas as informações necessárias, orientações personalizadas e um treinamento completo para utilizar o drone com segurança e eficiência. </p>
+                        </div>
+                        <div class="card">
+                            <span class="nome">Maria Santos </span>
+                            <span class="funcao">Agricultora</span>
+                            <img src="imagens/8-depoimentos/idv-gn.webp" alt="">
+    
+                            <p>A Biotech DRONES ofereceu um serviço de pulverização excepcional para a minha fazenda. A precisão e eficiência na aplicação dos defensivos agrícolas foram impressionantes, graças à tecnologia de drones. Estou extremamente satisfeito com a parceria que eles proporcionaram para o sucesso da minha plantação.</p>
+                        </div>
+                        <div class="card">
+                            <span class="nome">Carlos Oliveira</span>
+                            <span class="funcao">Proprietário de Fazenda</span>
+                            <img src="imagens/8-depoimentos/idv-gn.webp" alt="">
+    
+                            <p>A experiência de contratar a Biotech DRONES para a pulverização foi incrível. A equipe demonstrou profissionalismo desde o primeiro contato, realizando o trabalho de forma rápida e eficiente. Recomendo a Biotech DRONES a todos os agricultores que buscam resultados superiores e uma parceria sólida.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
+    <footer>
+        <div class="container-footer">
+            <img src="imagens/9-footer/logo.png" alt="Logo">
+            <span class="fonte-branco medium">Contato:</span>
+
+            <div class="content">
+                <span class="fonte-branco">Email: contato@biotechdrones.com.br</span>
+                <span class="fonte-branco">WhattsApp: 99999-9999</span>
+                <span class="fonte-branco">Instagram: @biotechdrones</span>
+
+            </div>
+        </div>
+    </footer>
 
     <script src="script/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/less" ></script>
